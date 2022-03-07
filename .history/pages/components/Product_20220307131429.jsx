@@ -38,9 +38,9 @@ function Product({ id, title, price, description, category, rating, image }) {
       <p className="my-2 text-xs line-clamp-2">{description}</p>
 
       <div className="mb-5">
-        <p>
-          <strong>${price} </strong>
-        </p>
+      <p>
+            <strong>${price} </strong>
+          </p>
       </div>
       {hasPrime && (
         <div className="-mt-5 flex items-center space-x-2">

@@ -39,7 +39,7 @@ function Product({ id, title, price, description, category, rating, image }) {
 
       <div className="mb-5">
         <p>
-          <strong>${price} </strong>
+          <String>$ {price}</String>
         </p>
       </div>
       {hasPrime && (

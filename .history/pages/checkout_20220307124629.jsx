@@ -50,7 +50,11 @@ function Checkout() {
             <>
               <h2 className="whitespace-nowrap">
                 Subtotal ({items.length} items):{' '}
-                <span className="font-bold">${total}</span>
+                <span className="font-bold">
+                  <p>
+                    <strong>${price} </strong>
+                  </p>
+                </span>
               </h2>
 
               <button
